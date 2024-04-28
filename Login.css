@@ -1,0 +1,65 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.main-container{
+	height: 80vh;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.login-form{
+	height: 450px;
+	width: 450px;
+	padding: 20px;
+	background: transparent;
+	backdrop-filter: blur(15px);
+	position: absolute;
+	top: 70px;
+	right: 100px;
+	border-radius: 50px;
+	box-shadow: -6px -6px 20px whitesmoke;
+}
+
+input{
+	width: 90%;
+	margin-top: 20px;
+	height: 60px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	border-bottom: 3px solid Black;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.placeh{
+	color: white;
+}
+
+.lgn{
+	font-family: Arial Black;
+	color: royalblue;
+	
+}
+
+.lgnbtn{
+	border: none;
+	background-color: royalblue;
+	height: 60px;
+	border-radius: 15px;
+	font-size: 25px;
+	line-height: 25px;
+	font-family: Arial Black;
+}
+.img{
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+}
